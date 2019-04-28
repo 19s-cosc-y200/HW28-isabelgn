@@ -1,0 +1,34 @@
+/*
+Project Name: Homeowrk 23 tables (HW23)
+Author: Isabel Nichols
+Date Last Modified: April 28, 2019
+*/
+table { width: 200px;
+        margin: auto; }
+caption { font-size: 2em;
+          font-weight: bold; }
+thead { background-color: #EAEAEA; }
+tbody { font-family: Arial, sans-serif;
+        font-size: .90em; }
+tbody td { border-bottom: 1px #000033 dashed;
+           padding-left: 25px; }
+tfoot { background-color: #EAEAEA;
+        font-weight: bold;
+        text-align: center; }
+table.table2{
+    width:400px;
+    margin:auto;
+}
+table.table2 thead {
+    background-color:silver;
+}
+table.table2 tfoot{
+     background-color:silver;
+     text-align:center;
+}
+table.table2 tr:nth-of-type(even){
+    background-color: cyan
+}
+table.table2 tbody th{
+     border-bottom: 1px #000033 dashed;
+}
